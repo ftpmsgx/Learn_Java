@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] a = new int[10];
-        int i,result = 0;
+        int i,result = 0xfff;
         int hkey;
         int start = 0, end = 9;
         System.out.print("输入十个数:");
@@ -26,6 +26,9 @@ public class Main {
                 break;
             }
         }
-        System.out.println("Result:" + result);
+        if(result != 0xfff)
+            System.out.println("Result:" + result);
+        else
+            System.out.println("Not Found!");
     }
 }
