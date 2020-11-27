@@ -1,7 +1,6 @@
 package club.shawngao.guessnumber;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
