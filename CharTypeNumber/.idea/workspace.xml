@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d4c053-0244-4bfc-ae53-3199b4696e85" name="Default Changelist" comment="" />
+    <list default="true" id="d0a61efc-9eb6-4416-9640-96482f93f177" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +34,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1kqyDBw2R7fYUQ9z7v3Z7ElAbAN" />
+  <component name="ProjectId" id="1krIf8zgNUXRbgYiqyuXEiVzSVn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,8 +42,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="club.shawngao.narcissistic.Main" />
-      <module name="NarcissisticNumber" />
+      <option name="MAIN_CLASS_NAME" value="club.shawngao.chartypenumber.Main" />
+      <module name="CharTypeNumber" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -60,11 +60,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1d4c053-0244-4bfc-ae53-3199b4696e85" name="Default Changelist" comment="" />
-      <created>1606442295302</created>
+      <changelist id="d0a61efc-9eb6-4416-9640-96482f93f177" name="Default Changelist" comment="" />
+      <created>1606452385703</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606442295302</updated>
+      <updated>1606452385703</updated>
     </task>
     <servers />
   </component>
@@ -80,29 +80,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1606452385078">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1606477566446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1606452385078">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606477566446" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1606477566446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1606452385078">
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606477566446" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1606477566446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1606452385078">
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606477566446" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1606477566446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state x="551" y="130" key="new project wizard" timestamp="1606452383150">
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606477566446" />
+    <state x="551" y="130" key="new project wizard" timestamp="1606477565209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606452383150" />
-    <state x="721" y="234" width="669" height="524" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606448162584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="721" y="234" width="669" height="524" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606448162584" />
+    <state x="551" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606477565209" />
   </component>
 </project>

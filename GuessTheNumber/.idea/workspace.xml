@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GuessTheNumber:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d4c053-0244-4bfc-ae53-3199b4696e85" name="Default Changelist" comment="" />
+    <list default="true" id="a1484073-454b-4829-9c94-f3f012ccd3b2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,16 +39,22 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1kqyDBw2R7fYUQ9z7v3Z7ElAbAN" />
+  <component name="ProjectId" id="1ks7hggocDxP0fhOG3Jmo03WhyZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="club.shawngao.narcissistic.Main" />
-      <module name="NarcissisticNumber" />
+      <option name="MAIN_CLASS_NAME" value="club.shawngao.guessnumber.Main" />
+      <module name="GuessTheNumber" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -60,11 +71,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1d4c053-0244-4bfc-ae53-3199b4696e85" name="Default Changelist" comment="" />
-      <created>1606442295302</created>
+      <changelist id="a1484073-454b-4829-9c94-f3f012ccd3b2" name="Default Changelist" comment="" />
+      <created>1606477566848</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606442295302</updated>
+      <updated>1606477566848</updated>
     </task>
     <servers />
   </component>
@@ -80,29 +91,33 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1606452385078">
+    <state x="690" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606479337733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1606452385078">
+    <state x="690" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606479337733" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606479038912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1606452385078">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606479038912" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606478759683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1606452385078">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606478759683" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606478759683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606452385078" />
-    <state x="551" y="130" key="new project wizard" timestamp="1606452383150">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606478759683" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606478759683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606452383150" />
-    <state x="721" y="234" width="669" height="524" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606448162584">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606478759683" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606478759683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="234" width="669" height="524" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606448162584" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606478759683" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1606479456858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606479456858" />
   </component>
 </project>
