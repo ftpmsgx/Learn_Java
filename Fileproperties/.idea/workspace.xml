@@ -24,7 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680a79a4-aaa0-4c0a-90db-9ae544bae055" name="Default Changelist" comment="" />
+    <list default="true" id="680a79a4-aaa0-4c0a-90db-9ae544bae055" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Fileproperties_jar/Fileproperties.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Fileproperties_jar/Fileproperties.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fileproperties/club/shawngao/fileproperties/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fileproperties/club/shawngao/fileproperties/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/club/shawngao/fileproperties/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/club/shawngao/fileproperties/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,31 +93,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606785865030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606785865030" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606786019418">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606786019418" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606786019418">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606786019418" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606786019418">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606786019418" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606786019418">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606786019418" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1606785872797">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606785872797" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
