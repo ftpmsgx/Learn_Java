@@ -7,7 +7,7 @@ public class Main {
         String[] s = { "2", "1", "+", "10", "*", "3", "%" }; // 逆波兰式
 
         String operator = "+-%*/";
-        Stack<Double> stack = new Stack<Double>(); // 栈
+        Stack<Double> stack = new Stack<>(); // 栈
         Double a, b;
         int i;
         for (i = 0; i < s.length; i++) {
