@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        String[] s = { "2", "1", "+", "10", "*", "3", "%" }; // 逆波兰式
+        String[] s = { "13", "5", "-" }; // 逆波兰式
 
         String operator = "+-%*/";
         Stack<Double> stack = new Stack<>(); // 栈
@@ -21,7 +21,7 @@ public class Main {
                         stack.push(a + b);
                         break;
                     case 1:
-                        stack.push(a - b);
+                        stack.push(b - a);
                         break;
                     case 2:
                         stack.push(a % b);
@@ -30,7 +30,7 @@ public class Main {
                         stack.push(a * b);
                         break;
                     case 4:
-                        stack.push(a / b);
+                        stack.push(b / a);
                         break;
                 }
             }
