@@ -3,6 +3,9 @@ package club.shawngao.calculator;
 import java.math.BigDecimal;
 import java.util.*;
 
+/**
+ * 计算器
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,6 +25,7 @@ public class Main {
         for(i = 0; i < al.size(); i++) {
             if(al.get(i).equals("(")) {
                 op.add(al.get(i));
+                continue;
             }
             if(al.get(i).equals(")")) {
                 int j = op.size() - 1;
@@ -34,15 +38,19 @@ public class Main {
                     j--;
                 }
                 op.clear();
+                continue;
             }
             if(al.get(i).equals("*") || al.get(i).equals("/")) {
                 op.add(al.get(i));
+                continue;
             }
             if(al.get(i).equals("+") || al.get(i).equals("-")) {
                 op.add(al.get(i));
+                continue;
             }
             if(isNumericzidai(al.get(i))) {
                 rpn.add(al.get(i));
+                continue;
             }
         }
         for(int j = op.size() - 1; j >= 0; j--) {
@@ -79,6 +87,11 @@ public class Main {
         System.out.println("\033[32mResult = " + stack.pop());
     }
 
+    /**
+     * 判断是否为数字，不是则会抛出异常
+     * @param str   参数
+     * @return  返回逻辑值
+     */
     public static boolean isNumericzidai(String str) {
         String bigStr;
         try {
@@ -89,7 +102,7 @@ public class Main {
             System.out.println("\033[33m如果是运算符号则不必惊慌~   :D");
             return false;
         }
-        System.out.println("\033[33m" + bigStr + "已正常处理  :)");
+        System.out.println("\033[32m" + bigStr + "已正常处理  :)");
         return true;
     }
 }
