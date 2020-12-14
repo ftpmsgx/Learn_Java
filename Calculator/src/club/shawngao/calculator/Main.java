@@ -60,9 +60,9 @@ public class Main {
         Stack<Double> stack = new Stack<>(); // 栈
         Double a, b;
         for (i = 0; i < rpn.size(); i++) {
-            if (!operator.contains(rpn.get(i)))
+            if (!operator.contains(rpn.get(i))) {
                 stack.push(Double.parseDouble(rpn.get(i)));
-            else {
+            } else {
                 a = stack.pop();
                 b = stack.pop();
                 switch (operator.indexOf(rpn.get(i))) {
