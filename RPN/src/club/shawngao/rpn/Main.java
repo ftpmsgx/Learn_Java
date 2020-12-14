@@ -1,22 +1,32 @@
 package club.shawngao.rpn;
 
-import java.util.Stack;
+import java.math.BigDecimal;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String[] s = { "13", "5", "-" }; // 逆波兰式
-
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> rpn = new ArrayList<>();
+        String str;
+        int i;
+        System.out.print("Please enter a RPN:");
+        while (true) {
+            str = sc.next();
+            if (str.equals("#")) {
+                break;
+            }
+            rpn.add(str);
+        }
         String operator = "+-%*/";
         Stack<Double> stack = new Stack<>(); // 栈
         Double a, b;
-        int i;
-        for (i = 0; i < s.length; i++) {
-            if (!operator.contains(s[i]))
-                stack.push(Double.parseDouble(s[i]));
+        for (i = 0; i < rpn.size(); i++) {
+            if (!operator.contains(rpn.get(i)))
+                stack.push(Double.parseDouble(rpn.get(i)));
             else {
                 a = stack.pop();
                 b = stack.pop();
-                switch (operator.indexOf(s[i])) {
+                switch (operator.indexOf(rpn.get(i))) {
                     case 0:
                         stack.push(a + b);
                         break;
@@ -38,3 +48,4 @@ public class Main {
         System.out.println("result = " + stack.pop());
     }
 }
+
