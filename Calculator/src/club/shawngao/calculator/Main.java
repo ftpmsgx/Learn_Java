@@ -50,7 +50,6 @@ public class Main {
             }
             if(isNumericzidai(al.get(i))) {
                 rpn.add(al.get(i));
-                continue;
             }
         }
         for(int j = op.size() - 1; j >= 0; j--) {
