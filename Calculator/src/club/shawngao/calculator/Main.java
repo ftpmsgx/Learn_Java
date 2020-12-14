@@ -99,6 +99,7 @@ public class Main {
             System.out.println("\033[31m 哦，糟糕，字符:" + "\"" + str + "\"" + "发生了异常 :(");
             System.out.println("异常：" + e);
             System.out.println("\033[33m如果是运算符号则不必惊慌~   :D");
+            System.out.println("\033[31m你可能输入了错误的东西~    :D");
             return false;
         }
         System.out.println("\033[32m" + bigStr + "已正常处理  :)");
