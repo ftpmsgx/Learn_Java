@@ -9,11 +9,18 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        /*
+         *  动态数组的定义
+         *  al数组用来输入原始算式，即中缀表达式
+         *  rpn数组用来存放逆波兰式
+         *  op数组用来存放操作符
+         */
         ArrayList<String> al = new ArrayList<>();
         ArrayList<String> rpn = new ArrayList<>();
         ArrayList<String> op = new ArrayList<>();
         String str;
         int i;
+        // 此处输入原始算式，符号与运算数使用空格隔开，并以等号为结束符
         System.out.print("Please enter a Formula:");
         while(true) {
             str = sc.next();
@@ -22,6 +29,7 @@ public class Main {
             }
             al.add(str);
         }
+        // 中缀表达式转换逆波兰式
         for(i = 0; i < al.size(); i++) {
             if(al.get(i).equals("(")) {
                 op.add(al.get(i));
@@ -55,6 +63,7 @@ public class Main {
         for(int j = op.size() - 1; j >= 0; j--) {
             rpn.add(op.get(j));
         }
+        // 对逆波兰式进行解析运算
         String operator = "+-%*/";
         Stack<Double> stack = new Stack<>(); // 栈
         Double a, b;
@@ -98,7 +107,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("\033[31m 哦，糟糕，字符:" + "\"" + str + "\"" + "发生了异常 :(");
             System.out.println("异常：" + e);
-            System.out.println("\033[33m如果是运算符号则不必惊慌~   :D");
             System.out.println("\033[31m你可能输入了错误的东西~    :D");
             return false;
         }
