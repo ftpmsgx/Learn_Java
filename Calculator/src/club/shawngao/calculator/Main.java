@@ -18,16 +18,36 @@ public class Main {
         ArrayList<String> al = new ArrayList<>();
         ArrayList<String> rpn = new ArrayList<>();
         ArrayList<String> op = new ArrayList<>();
-        String str;
+        String str, numTmp = "", opTmp = "";
         int i;
         // 此处输入原始算式，符号与运算数使用空格隔开，并以等号为结束符
         System.out.print("Please enter a Formula:");
-        while(true) {
-            str = sc.next();
-            if(str.equals("=")) {
-                break;
-            }
-            al.add(str);
+        str = sc.nextLine();
+        if(str.length() <= 1) {
+            System.out.println("\033[31m你不能只输入1个符号或者数字!");
+            return;
+        }
+        char s;
+        for(int w = 0; w < str.length(); w++) {
+             s = str.charAt(w);
+             if(s >= '0' && s <= '9') {
+                 if(!opTmp.equals("")) {
+                     al.add(opTmp);
+                     opTmp = "";
+                 }
+                 numTmp += s;
+             }
+             if(!(s >= '0' && s <= '9') || s == '=') {
+                 if(!numTmp.equals("")) {
+                     al.add(numTmp);
+                     numTmp = "";
+                 }
+                 if(s == '=') {
+                     break;
+                 } else {
+                     opTmp += s;
+                 }
+             }
         }
         // 中缀表达式转换逆波兰式
         for(i = 0; i < al.size(); i++) {
@@ -114,3 +134,4 @@ public class Main {
         return true;
     }
 }
+
