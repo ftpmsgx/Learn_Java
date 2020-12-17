@@ -20,7 +20,7 @@ public class Main {
         ArrayList<String> op = new ArrayList<>();
         String str, numTmp = "", opTmp = "";
         int i;
-        // 此处输入原始算式，符号与运算数使用空格隔开，并以等号为结束符
+        // 此处输入原始算式，并以等号为结束符
         System.out.print("Please enter a Formula:");
         str = sc.nextLine();
         if(str.length() <= 1) {
