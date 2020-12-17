@@ -32,7 +32,6 @@ public class Main {
              s = str.charAt(w);
              if(s >= '0' && s <= '9') {
                  if(!opTmp.equals("")) {
-                     al.add(opTmp);
                      opTmp = "";
                  }
                  numTmp += s;
@@ -44,11 +43,16 @@ public class Main {
                  }
                  if(s == '=') {
                      break;
+                 } else if(s == ')'){
+                     opTmp = s + "";
+                     al.add(opTmp);
                  } else {
-                     opTmp += s;
+                     opTmp = s + "";
+                     al.add(opTmp);
                  }
              }
         }
+        System.out.println(al);
         // 中缀表达式转换逆波兰式
         for(i = 0; i < al.size(); i++) {
             if(al.get(i).equals("(")) {
