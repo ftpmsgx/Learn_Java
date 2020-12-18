@@ -43,7 +43,7 @@ public class Main {
                  }
                  if(s == '=') {
                      break;
-                 } else if(s == ')'){
+                 } else if(s == ')' || s == '）'){
                      opTmp = s + "";
                      al.add(opTmp);
                  } else {
@@ -55,14 +55,14 @@ public class Main {
         System.out.println(al);
         // 中缀表达式转换逆波兰式
         for(i = 0; i < al.size(); i++) {
-            if(al.get(i).equals("(")) {
+            if(al.get(i).equals("(") || al.get(i).equals("（")) {
                 op.add(al.get(i));
                 continue;
             }
-            if(al.get(i).equals(")")) {
+            if(al.get(i).equals(")") || al.get(i).equals("）")) {
                 int j = op.size() - 1;
                 while(j >= 0) {
-                    if(op.get(j).equals("(")) {
+                    if(op.get(j).equals("(") || op.get(j).equals("（")) {
                         j--;
                         continue;
                     }
@@ -138,4 +138,3 @@ public class Main {
         return true;
     }
 }
-
