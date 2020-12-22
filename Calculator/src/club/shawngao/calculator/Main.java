@@ -72,7 +72,7 @@ public class Main {
                 op.clear();
                 continue;
             }
-            if(al.get(i).equals("*") || al.get(i).equals("/")) {
+            if(al.get(i).equals("*") || al.get(i).equals("/") || al.get(i).equals("%")) {
                 op.add(al.get(i));
                 continue;
             }
@@ -105,7 +105,7 @@ public class Main {
                         stack.push(b - a);
                         break;
                     case 2:
-                        stack.push(a % b);
+                        stack.push(b % a);
                         break;
                     case 3:
                         stack.push(a * b);
