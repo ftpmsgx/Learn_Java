@@ -18,6 +18,7 @@ public class Main {
         ArrayList<String> al = new ArrayList<>();
         ArrayList<String> rpn = new ArrayList<>();
         ArrayList<String> op = new ArrayList<>();
+        // numTmp 存放临时的数字字符, opTmp即存放临时的操作符
         String str, numTmp = "", opTmp = "";
         int i;
         // 此处输入原始算式，并以等号为结束符
@@ -27,15 +28,21 @@ public class Main {
             System.out.println("\033[31m你不能只输入1个符号或者数字!");
             return;
         }
+        // 用来取出字符串中的单个字符
         char s;
         for(int w = 0; w < str.length(); w++) {
              s = str.charAt(w);
+             // 如果s存放的是数字，则需要在opTmp处于非空的情况下清空，且需要将操作符之间的数字链接起来（主要用于多位数）
              if(s >= '0' && s <= '9') {
                  if(!opTmp.equals("")) {
                      opTmp = "";
                  }
                  numTmp += s;
              }
+             // 如果s中存放的不是数字，则需要在numTmp处于非空的状态下追加到al字符串动态数组的后方，并清空
+             // 判断s是否存放的是等号，如果是，则跳出，即标志为算式的结束
+             // 判断s存放的是否为"回括号"，如果是，则将s存入opTmp中，再将opTmp追加到al字符串动态数组的后方
+             // 其余的情况，则将s存入opTmp中，再将opTmp追加到al字符串动态数组的后方
              if(!(s >= '0' && s <= '9') || s == '=') {
                  if(!numTmp.equals("")) {
                      al.add(numTmp);
