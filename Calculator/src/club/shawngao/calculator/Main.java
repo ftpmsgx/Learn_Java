@@ -94,6 +94,8 @@ public class Main {
         for(int j = op.size() - 1; j >= 0; j--) {
             rpn.add(op.get(j));
         }
+        // 输出RPN
+        System.out.println(rpn);
         // 对逆波兰式进行解析运算
         String operator = "+-%*/";
         Stack<Double> stack = new Stack<>(); // 栈
