@@ -59,6 +59,9 @@ public class Main {
                  }
              }
         }
+        if(!isNumericzidai(al.get(0))) {
+            al.add(0, "0");
+        }
         System.out.println(al);
         // 中缀表达式转换逆波兰式
         for(i = 0; i < al.size(); i++) {
