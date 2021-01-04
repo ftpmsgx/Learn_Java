@@ -5,6 +5,8 @@ import java.util.*;
 
 /**
  * 计算器
+ * Supplementary note: Subtraction needs to be written as plus a negative number,
+ * and division needs to be written as a multiplication and reciprocal
  */
 public class Main {
     public static void main(String[] args) {
