@@ -35,7 +35,7 @@ public class Main {
         for(int w = 0; w < str.length(); w++) {
             s = str.charAt(w);
             // 如果s存放的是数字，则需要在opTmp处于非空的情况下清空，且需要将操作符之间的数字链接起来（主要用于多位数）
-            if(s >= '0' && s <= '9') {
+            if((s >= '0' && s <= '9') || s == '.') {
                 if(!opTmp.equals("")) {
                     opTmp = "";
                 }
@@ -45,7 +45,7 @@ public class Main {
             // 判断s是否存放的是等号，如果是，则跳出，即标志为算式的结束
             // 判断s存放的是否为"回括号"，如果是，则将s存入opTmp中，再将opTmp追加到al字符串动态数组的后方
             // 其余的情况，则将s存入opTmp中，再将opTmp追加到al字符串动态数组的后方
-            if(!(s >= '0' && s <= '9') || s == '=') {
+            if((!(s >= '0' && s <= '9') || s == '=') && s != '.') {
                 if(!numTmp.equals("")) {
                     al.add(numTmp);
                     numTmp = "";
