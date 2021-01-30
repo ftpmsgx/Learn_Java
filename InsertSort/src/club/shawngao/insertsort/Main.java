@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    // Sort method
     public static void Sort(ArrayList<Integer> num, int len) {
-        // Sort
         for (int i = 0; i <= len; i++) {
             for (int j = i; j > 0; j--) {
                 if (num.get(j) < num.get(j - 1)) {
@@ -18,10 +18,12 @@ public class Main {
         }
     }
 
+    // Swap method
     public static int Swap(int a, int b) {
         return a;
     }
 
+    // Main method
     public static void main(String[] args) {
         // write your code here
         Scanner sc = new Scanner(System.in);
