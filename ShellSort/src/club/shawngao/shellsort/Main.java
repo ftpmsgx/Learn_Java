@@ -6,18 +6,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void ShellSort(ArrayList<Integer> num) {
-        int tmp;
-        for (int i = num.size() / 2; i >= 1; i /= 2) {
-            for (int j = i; j < num.size(); j++) {
-                tmp = num.get(j);
-                int k = j - i;
-                while (k >= 0 && num.get(k) > tmp) {
-                    num.set(k + i, num.get(k));
-                    k -= i;
+        int len = num.size();
+        for (int i = len / 2; i > 0; i /= 2) {
+            for (int j = i; j < len; j++) {
+                for (int k = j - i; k >= 0 && num.get(k) > num.get(k + i); k -= i) {
+                    num.set(k, Swap(num.get(k + i), num.set(k + i, num.get(k))));
                 }
-                num.set(k + i, tmp);
             }
         }
+    }
+
+    public static int Swap(int a, int b) {
+        return a;
     }
 
     public static void main(String[] args) {
