@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void ShellSort(ArrayList<Integer> num) {
-        int len = num.size();
+    public static void ShellSort(ArrayList<Integer> num) { // Shell Sort method begin
+        int len = num.size(); // Calculator ArrayList's Length
         for (int i = len / 2; i > 0; i /= 2) {
             for (int j = i; j < len; j++) {
                 for (int k = j - i; k >= 0 && num.get(k) > num.get(k + i); k -= i) {
@@ -16,7 +16,8 @@ public class Main {
         }
     }
 
-    public static int Swap(int a, int b) {
+    public static int Swap(int a, int b) { // Swap Method
+        // Usage : y = Swap(x, x = y);
         return a;
     }
 
