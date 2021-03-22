@@ -1,3 +1,3 @@
-# Learning Java
-# Java programming topics
-# Code specification: Alibaba cloud java development manual
+### Learning Java
+***
++ Code specification: Alibaba cloud java development manual
